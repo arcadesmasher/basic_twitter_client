@@ -1,0 +1,48 @@
+.back {
+  width: 100%;
+  height: 100vh;
+  background-color: orange;
+}
+
+.sideDisplay {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 95vh;
+  background-color: rgba($color: (white), $alpha: 0.3);
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.leftChild {
+  top: 30%;
+  position: relative;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+  height: 95vh;
+  background-color: rgba($color: (white), $alpha: 0.5);
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.rightChild {
+  top: 30%;
+  left: 55%;
+  position: absolute;
+}
+
+button {
+  width: 30vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
